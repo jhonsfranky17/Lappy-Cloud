@@ -55,7 +55,7 @@ MIT License — free to use and modify for educational and professional purposes
 
 ## 🚀 Features
 
-- Fully automated setup scripts (setup_app.sh, setup_lb.sh, deploy_all.sh)
+- Fully automated setup scripts (setup_app.sh, setup_lb.sh)
 - Minimal configuration — works out-of-the-box
 - Each app server runs a Dockerized Node.js container
 - Nginx load balancer automatically routes traffic round-robin
