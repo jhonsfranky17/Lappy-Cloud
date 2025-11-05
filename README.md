@@ -60,7 +60,7 @@ MIT License — free to use and modify for educational and professional purposes
 - Each app server runs a Dockerized Node.js container
 - Nginx load balancer automatically routes traffic round-robin
 - Tested on Fedora 43 with VMware Fusion NAT networking
-- Works seamlessly with macOS terminal + browser access
+- Works seamlessly with host terminal + browser access
 
 
 ## 🧾 Learning Outcomes
@@ -105,9 +105,9 @@ chmod +x setup_app.sh
 Refer setup_lb.sh
 
 
-## 🧠 Step 3 — Testing from macOS
+## 🧠 Step 3 — Testing from host
 
-Forward your Mac port 8080 to LB’s port 80:
+Forward your host port 8080 to LB’s port 80:
 
 ssh -L 8080:localhost:80 (vm-name)@172.16.137.132
 

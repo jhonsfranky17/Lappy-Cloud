@@ -4,7 +4,7 @@
 # Installs Nginx and configures round-robin proxy for the App Servers
 # ---------------------------------------------------------------------
 
-echo "🌐 Starting Load Balancer setup..."
+echo "Starting Load Balancer setup..."
 
 # 1️⃣ Update system & install Nginx
 sudo dnf -y update
@@ -30,5 +30,5 @@ EOF
 # 3️⃣ Restart Nginx
 sudo nginx -t && sudo systemctl restart nginx
 
-echo "✅ Nginx Load Balancer setup complete!"
-echo "Access via: http://localhost:8080 (from your Mac)"
+echo "Nginx Load Balancer setup complete!"
+echo "Access via: http://localhost:8080 (from your host)"
