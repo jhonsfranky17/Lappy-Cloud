@@ -7,7 +7,6 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Project Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
----
 
 ## 🧾 Overview
 
@@ -20,7 +19,6 @@ Using VMware Fusion and Fedora VMs, this setup builds:
 - 🌐 **1 Load Balancer Server** (Nginx reverse proxy using round-robin)
 - 💻 **Host** (Access via SSH port forwarding)
 
----
 
 ## 💡 Why This Project
 
@@ -31,19 +29,16 @@ This repository is perfect for:
 - Practicing Docker, Nginx, and Linux server management
 - Creating a local cloud simulation without any cloud provider account
 
----
 
 ## 📜 License
 
 MIT License — free to use and modify for educational and professional purposes.
 
----
 
 ## 🧱 Architecture
 
 ![Architecture](./assets/architecture.png)
 
----
 
 ## 🧱 Technologies Used
 
@@ -57,7 +52,6 @@ MIT License — free to use and modify for educational and professional purposes
 | **Load Balancing**    | Nginx               | Distributes traffic across app containers |
 | **Access**            | SSH Port Forwarding | Exposes internal LB to host browser       |
 
----
 
 ## 🚀 Features
 
@@ -68,7 +62,6 @@ MIT License — free to use and modify for educational and professional purposes
 - Tested on Fedora 43 with VMware Fusion NAT networking
 - Works seamlessly with macOS terminal + browser access
 
----
 
 ## 🧾 Learning Outcomes
 
@@ -79,7 +72,6 @@ By the end of this project, you’ll understand:
 - How a reverse proxy load balancer distributes incoming traffic
 - How to connect a local machine to internal cloud networks securely via SSH tunneling
 
----
 
 ## 🧰 Prerequisites
 
@@ -91,7 +83,6 @@ By the end of this project, you’ll understand:
 
 - SSH access between VMs enabled
 
----
 
 ## ⚙️ Step 1 — App Server Setup
 
@@ -100,7 +91,6 @@ You can automate everything using this script.
 
 ***Refer setup_app.sh***
 
----
 
 ## 🧩 Usage
 
@@ -109,13 +99,11 @@ chmod +x setup_app.sh
 
 # Run similar on App Server 2 and 3 with custom messages.
 
----
 
 ## ⚙️ Step 2 — Load Balancer Setup
 
 Refer setup_lb.sh
 
----
 
 ## 🧠 Step 3 — Testing from macOS
 
@@ -128,7 +116,7 @@ http://localhost:8080
 
 Keep refreshing — you’ll see:
 
-Hello from App Server 1
-Hello from App Server 2
-Hello from App Server 3
+***Hello from App Server 1***
+***Hello from App Server 2***
+***Hello from App Server 3***
 
