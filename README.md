@@ -97,7 +97,7 @@ You can automate everything using this script.
 chmod +x setup_app.sh
 ./setup_app.sh "Hello from App Server 1"
 
-# Run similar on App Server 2 and 3 with custom messages.
+## Run similar on App Server 2 and 3 with custom messages.
 
 
 ## ⚙️ Step 2 — Load Balancer Setup
@@ -109,14 +109,14 @@ Refer setup_lb.sh
 
 Forward your Mac port 8080 to LB’s port 80:
 
-ssh -L 8080:localhost:80 <vm-name>@172.16.137.132
+ssh -L 8080:localhost:80 (vm-name)@172.16.137.132
 
 Then open your browser at:
 http://localhost:8080
 
 Keep refreshing — you’ll see:
 
-***Hello from App Server 1***
-***Hello from App Server 2***
-***Hello from App Server 3***
+Hello from App Server 1
+Hello from App Server 2
+Hello from App Server 3
 
